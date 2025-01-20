@@ -1,5 +1,5 @@
 # Clicker miniapp App Template
-![thumb](https://github.com/habiliai/template-clicker-mini-app/thumbnails/thumb1.png)
+![thumb](https://github.com/habiliai/template-clicker-mini-app/blob/v0.1/thumbnails/thumb1.png?raw=true)
 
 ## Description
 The Clicker Game app template is a mini-app where users simply tap the screen to score points and earn rewards.
@@ -47,7 +47,8 @@ Clicker miniapp App Template은 간단하고 필수적인 UI를 제공하고 있
 
 #### Change background color
 tailwind.config.js 파일에서 background color를 변경할 수 있습니다.
-![thumb](https://github.com/habiliai/template-clicker-mini-app/thumbnails/thumb2.png)
+
+![thumb](https://github.com/habiliai/template-clicker-mini-app/blob/v0.1/thumbnails/thumb2.png?raw=true)
 ```typescript
 backgroundImage: {
     'gradient-main': 'linear-gradient(to top, BOTTOM_RGB, TOP_RGB)',
@@ -57,7 +58,7 @@ backgroundImage: {
 
 #### 2. Change Icons
 - Main page
-![thumb](https://github.com/habiliai/template-clicker-mini-app/thumbnails/thumb3.png)
+![thumb](https://github.com/habiliai/template-clicker-mini-app/blob/v0.1/thumbnails/thumb3.png?raw=true)
   - Main Icon (도토리 아이콘) : Click 대상
   - Energy Icon (번개 아이콘) : Click 제한 시간 표시용
   - Frens Icon (곰돌이 아이콘) : Invite Friends 페이지로 이동
@@ -65,20 +66,20 @@ backgroundImage: {
   - Boosts Icon (로켓 아이콘) : Booster 페이지로 이동
 
 - Invite page
-![thumb](https://github.com/habiliai/template-clicker-mini-app/thumbnails/thumb4.png)
+![thumb](https://github.com/habiliai/template-clicker-mini-app/blob/v0.1/thumbnails/thumb4.png?raw=true)
   - Present Icon (선물 아이콘) : Invite-Based Reward Task 표시용
   - Friend Icon (다람쥐 아이콘) : Invited Friend Details 표시용
       - 초대된 친구가 없을 경우, Main 페이지에 있었던 [Frens Icon](https://www.notion.so/Clicker-Miniapp-Asset-14dee7e108d28009805dffa8526b7a76?pvs=21)이 표시됩니다.
 
 - Earn page
-![thumb](https://github.com/habiliai/template-clicker-mini-app/thumbnails/thumb5.png)
+![thumb](https://github.com/habiliai/template-clicker-mini-app/blob/v0.1/thumbnails/thumb5.png?raw=true)
   - Earn Icon (코인 아이콘) : Main Page에 있는 [Earn Icon](https://www.notion.so/Clicker-Miniapp-Asset-14dee7e108d28009805dffa8526b7a76?pvs=21)을 변경할 경우, 자동 변경됩니다.
   - Invite Icon (프렌즈 아이콘) : Invite Count-Based Reward Task 표시용
 
 | Telegram, YouTube, X Icon : 각 브랜드의 공식 UI 리소스를 사용하며, 해당 아이콘의 저작권은 각 브랜드에 있습니다.
 
 - Booster page
-![thumb](https://github.com/habiliai/template-clicker-mini-app/thumbnails/thumb6.png)
+![thumb](https://github.com/habiliai/template-clicker-mini-app/blob/v0.1/thumbnails/thumb6.png?raw=true)
   - Daily booster Icon (번개 아이콘) : Click당 수익율 증가 + 제한 시간 충전 부스터
   - Multi tap Icon (다람쥐 아이콘) : Click당 수익율 증가 부스터
   - Energy limit Icon (배터리 아이콘) : Click 제한 시간 충전 부스터

@@ -318,20 +318,18 @@ components:
     Session:
       type: object
       properties:
+        id:
+          type: integer
+        authUserId:
+          type: string
+        telegramId:
+          type: integer
+        telegramUsername:
+          type: string
+        tonWalletAddress:
+          type: string
+        isPremium:
+          type: boolean
         accessToken:
           type: string
-        user:
-          type: object
-          properties:
-            id:
-              type: integer
-            authUserId:
-              type: string
-            telegramId:
-              type: integer
-            telegramUsername:
-              type: string
-            tonWalletAddress:
-              type: string
-            isPremium:
-              type: boolean
+          
